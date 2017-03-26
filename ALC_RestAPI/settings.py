@@ -82,7 +82,7 @@ WSGI_APPLICATION = 'ALC_RestAPI.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.mysql',
-        'NAME': 'thealcapi$default',
+        'NAME': 'thealcapi$thealcapi',
         'USER': 'thealcapi',
         'PASSWORD': '',
         'HOST': 'thealcapi.mysql.pythonanywhere-services.com',
