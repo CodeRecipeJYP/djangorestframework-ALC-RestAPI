@@ -81,11 +81,20 @@ WSGI_APPLICATION = 'ALC_RestAPI.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.mysql',
-        'NAME': 'thealc',
+        'NAME': 'thealc$default',
         'USER': 'thealc',
         'PASSWORD': '',
-        'HOST': 'thealc.caiedit8oxa9.ap-northeast-2.rds.amazonaws.com',
+        'HOST': 'thealc.mysql.pythonanywhere-services.com',
     }
+
+    ## LOCAL
+    # default': {
+    #     'ENGINE': 'django.db.backends.mysql',
+    #     'NAME': 'thealc',
+    #     'USER': 'thealc',
+    #     'PASSWORD': '',
+    #     'HOST': 'thealc.caiedit8oxa9.ap-northeast-2.rds.amazonaws.com',
+    # }
 }
 
 
