@@ -25,8 +25,7 @@ SECRET_KEY = 'jd)-a!f#6rwb@h*ks6o5ui+06de5m0q#glm0@y!t6vb*h9f&d)'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['thealcapi.pythonanywhere.com']
-
+ALLOWED_HOSTS = ['127.0.0.1', 'thealcapi.pythonanywhere.com']
 
 # Application definition
 
@@ -82,10 +81,10 @@ WSGI_APPLICATION = 'ALC_RestAPI.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.mysql',
-        'NAME': 'thealcapi$thealcapi',
-        'USER': 'thealcapi',
+        'NAME': 'thealc',
+        'USER': 'thealc',
         'PASSWORD': '',
-        'HOST': 'thealcapi.mysql.pythonanywhere-services.com',
+        'HOST': 'thealc.caiedit8oxa9.ap-northeast-2.rds.amazonaws.com',
     }
 }
 
